@@ -1,5 +1,10 @@
 # Change Log
 
+## Unreleased
+
+### Changes
+- Idle handlers no longer defer to scene-graph parents.  Parents still wait for all children to be idle
+
 ## Version 0.19.4
 
 ### Improvements
